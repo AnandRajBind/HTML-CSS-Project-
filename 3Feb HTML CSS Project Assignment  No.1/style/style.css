@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto', sans-serif;   box-sizing: border-box;
+   /* justify-content: space-between left 20px; */
+/* box-sizing: border-box; */
+/* overflow: hidden; */
+}
+body{
+   background-image:url(/assests/background.png) ;
+   /* z-index: -1; */
+height: 100%;
+width: 100%;
+}
+#logo{
+   margin-top: 25px;
+   margin-left: 25px;
+   margin-right: 25px;
+   /* justify-content: start; */
+   /* align-self: flex-start; */
+       /* text-align: end; */
+
+}
+ 
+header ul{
+display: flex;
+ /* gap: 25px; */
+ align-items: center;
+}
+ul {
+   /* justify-content: center; */
+
+}
+header ul li{
+ list-style: none;
+ font-weight:500 ;
+ margin-right: 7%;
+
+ }
+a{
+   color: yellow;
+   font-weight: 500;
+   justify-content: center;
+}
+#button1{
+    padding: 10px 20px;
+    color: white;
+    background-color: hwb(0 18% 9%);
+ font-weight: 700;
+ border-radius: 8%;
+ border: none;
+ /* text-align: start; */
+ justify-content: end;
+ margin-left: 350px;
+}
+ main{
+    margin: 15%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(240, 240, 51);
+    font-weight: 10000px;
+    font-size: x-large;
+ }
+.button2{
+    padding: 10px;
+    color: rgb(250, 248, 248);
+    background-color: #eb1e1e;
+ font-weight: 700;
+ border-radius: 8%;
+  border: none;
+ margin-top: 90px;
+}
+
+footer{
+    text-align: end;
+ margin-right: 0px;
+margin-bottom: 5px;
+  }
