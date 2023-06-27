@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+img:hover{
+    cursor: pointer;
+}
+body{
+    background-color: rgb(36, 36, 99);
+}
+header button{
+    padding: 10px;
+    background-color: rgb(53, 155, 214)
+    ;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: right;
+align-items: center;
+margin-right: 10px;
+ }
+
+  header nav{
+    color: aliceblue;
+ }
+main .hand{
+height: 15px;
+}
+main #hi{
+    color: whitesmoke;
+}
+main #mark{
+    color: white;
+    font-size: 20px;
+
+}
+
+main #developer{
+    color: rgb(207, 207, 90);
+    font-weight: 500;
+    font-size: large;
+}
+main #pc{
+    height: 300px;
+    width: 300px;
+     align-items: center;
+    justify-content: center;
+}
+ .left_hero_section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+main .right_hero_section div img{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    
+}
+main .right_hero_section div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+main .right_hero_section p{
+ margin-right: 10px;
+}
+main .right_hero_section  h1{
+    
+    display: flex;
+    justify-content: center;
+     font-size: large;
+ }
+ 
+ #content{
+    color: aliceblue;
+    font-size: large;
+    text-decoration: underline;
+ }
+footer div img{
+  height: 25px;
+ }
+
+ footer div {
+      text-align: center;
+}
+ 
+/* left hero section  */
+@media screen and (max-width:543px){
+    main .left_hero_section{
+     flex-direction: column;
+     /* height: 50px; */
+      }
+    }
+@media screen and (max-width:543px){
+main .right_hero_section div{
+ flex-direction: column;
+  }
+}
+
+ 
+ 
